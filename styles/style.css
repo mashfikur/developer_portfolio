@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
 
+/* navbar styles */
 
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 50px 225px;
 }
 
 nav h3{
@@ -48,3 +56,38 @@ nav ul li a{
     font-size: 20px;
 }
 
+/* header styles */
+
+header{
+    background-color: #FFF8F3;
+}
+
+/* Banner styles */
+
+.banner{
+    padding-top: 45px;
+    padding-left: 230px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-head{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-text{
+    padding-bottom: 30px;
+    color: #757575;
+}
+
+.banner-right img{
+    width: 584px;
+    height: 676px;
+}
