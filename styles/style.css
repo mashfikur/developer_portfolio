@@ -24,12 +24,12 @@ nav h3 {
 }
 
 .btn-primary {
-  padding: 18px 35px;
+  padding: 16px 32px;
   font-weight: 700;
   background-color: #fd6e0a;
   color: white;
   border: none;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 5px;
 }
 
@@ -50,16 +50,17 @@ nav li {
 nav ul li a {
   text-decoration: none;
   color: #474747;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* header styles */
 
 header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 
 /* Banner styles */
@@ -92,8 +93,7 @@ header {
 }
 
 .banner-right img {
-  width: 584px;
-  height: 676px;
+  width: 484px;
 }
 
 /* main section styles */
