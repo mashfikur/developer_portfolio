@@ -273,7 +273,7 @@ footer {
 form input[type="text"],
 input[type="email"] {
   display: block;
-  width: 461px;
+  width: 460px;
   height: 64px;
   color: #757575;
   font-size: 16px;
@@ -282,6 +282,7 @@ input[type="email"] {
   padding-left: 30px;
   border: none;
   margin-bottom: 24px;
+  resize: none;
 }
 
 footer textarea {
@@ -293,8 +294,8 @@ footer textarea {
   line-height: 28px;
   padding: 18px 30px;
   border: none;
-  width: 461px;
+  width: 430px;
   height: 180px;
-  flex-shrink: 0;
   margin-bottom: 24px;
+  resize: none;
 }
